@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Gaming - AEIGS AI</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300..700&display=swap" rel="stylesheet">
+  <style>
+    body{
+      margin: 0;
+      font-family: "DM Sans", sans-serif;
+      background: linear-gradient(180deg, #0a0a0f, #1b1b2f);
+      color: #e0e0e0;
+    }
+
+    .container{
+      width: 90%;
+      max-width: 1200px;
+      margin: 6rem auto;
+    }
+
+    h1{
+      font-size: 3rem;
+      text-align: center;
+      color: #ff6f61;
+      margin-bottom: 1rem;
+      text-shadow: 0 0 10px #ff6f61;
+    }
+
+    .intro{
+      text-align: center;
+      font-size: 1.2rem;
+      margin-bottom: 3rem;
+      line-height: 1.8;
+      color: #cfd8dc;
+    }
+
+    .section{
+      display: flex;
+      flex-wrap: wrap;
+      gap: 2rem;
+      margin-bottom: 3rem;
+    }
+
+    .card{
+      flex: 1 1 45%;
+      background: rgba(255,255,255,0.03);
+      backdrop-filter: blur(12px);
+      padding: 2rem;
+      border-radius: 1rem;
+      border: 1px solid rgba(255,255,255,0.1);
+      box-shadow: 0 5px 20px rgba(0,0,0,0.5);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .card:hover{
+      transform: translateY(-10px) scale(1.05);
+      box-shadow: 0 10px 30px rgba(255,111,97,0.6), 0 0 20px rgba(255,111,97,0.3);
+      border-color: #ff6f61;
+    }
+
+    .card img{
+      width: 100%;
+      border-radius: 1rem;
+      margin-bottom: 1rem;
+    }
+
+    h2{
+      color: #ffcc00;
+      margin-bottom: 1rem;
+    }
+
+    p{
+      font-size: 1rem;
+      line-height: 1.6;
+      color: #d1d1d1;
+    }
+
+    .highlight{
+      color: #56ccf2;
+      font-weight: bold;
+    }
+
+    .cta{
+      text-align: center;
+      margin: 4rem 0;
+    }
+
+    .cta button{
+      padding: 1rem 3rem;
+      border-radius: 2rem;
+      border: none;
+      font-size: 1.1rem;
+      background: linear-gradient(135deg,#ff6f61,#ffcc00);
+      color: black;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    .cta button:hover{
+      transform: scale(1.1);
+      box-shadow: 0 0 30px #ffcc00;
+    }
+
+    @media(max-width: 768px){
+      h1{font-size: 2.2rem;}
+      .card{flex: 1 1 100%;}
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+  <h1>Gaming</h1>
+  <p class="intro">
+    Explore the exciting world of gaming and how AI is transforming the way we play, compete, and create games. 
+    From immersive experiences to intelligent game design, the future of gaming is here.
+  </p>
+
+  <div class="section">
+    <div class="card">
+      <img src="game1.jpg" alt="VR Gaming">
+      <h2>Virtual Reality</h2>
+      <p>
+        Dive into fully immersive virtual worlds with AI-powered VR technology, providing <span class="highlight">next-level gaming experiences</span>.
+      </p>
+    </div>
+
+    <div class="card">
+      <img src="game2.jpg" alt="AI in Games">
+      <h2>AI-Driven Gameplay</h2>
+      <p>
+        Intelligent NPCs, procedural generation, and adaptive difficulty make each game unique, engaging players in <span class="highlight">dynamic challenges</span>.
+      </p>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="card">
+      <img src="game3.jpg" alt="Game Streaming">
+      <h2>Cloud Gaming & Streaming</h2>
+      <p>
+        Play high-end games anywhere without heavy hardware, as cloud gaming brings <span class="highlight">AAA titles to your fingertips</span>.
+      </p>
+    </div>
+
+    <div class="card">
+      <img src="game4.jpg" alt="Game Development">
+      <h2>Game Development Tools</h2>
+      <p>
+        AI assists game developers in designing worlds, characters, and levels faster, opening the doors to <span class="highlight">creative innovations</span>.
+      </p>
+    </div>
+  </div>
+
+  <div class="cta">
+    <h2>Level Up Your Gaming</h2>
+    <p>Join the future of gaming and explore AI-powered experiences.</p>
+    <button>Start Playing</button>
+  </div>
+</div>
+
+</body>
+</html>
